@@ -1,1 +1,1 @@
-# Linux_script
+Bulk script using for Linux commonly.
