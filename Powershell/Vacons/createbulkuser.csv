@@ -1,0 +1,36 @@
+Username,Password,Fullname,GroupName,Description
+vc_ceo,themyb6c,DANG THE MY,BOD,CEO
+vc_hr_minh,giaminh2a6,TRAN GIA MINH,BOD,Quan ly Nhan Su
+vc_sales_hien,thanhhien3d6,PHAM THI THANH HIEN,SALES,Truong phong Phat trien Kinh doanh
+vc_sales_sang,thanhsangd73,PHAN THANH SANG,SALES,Chuyen vien Phat trien Kinh doanh
+vc_sales_quynh,nhuquynh976,PHAN NHU QUYNH,SALES,Dieu phoi du an
+vc_sales_thuy,diemthuy119,NGUYEN THI DIEM THUY,SALES,Dieu phoi du an
+vc_sales_huong,myhuongc56,LY MY HUONG,SALES,Dieu phoi du an
+vc_sales_thao,nguyenthao1c4,NGUYEN THAO,SALES,Dieu phoi du an
+vc_hr_thach,thienthach94a,TRAN DAC THIEN THACH,HR,Truong phong Nhan su
+vc_hr_dung,thidunga40,HOANG THI DUNG,HR,Tro ly Nhan su
+vc_act_ngoc,bichngocdb3,NGUYEN THI BICH NGOC,ACCOUNTANT,Ke Toan Truong
+vc_act_tuyet,anhtuyet5b5,TRAN THI ANH TUYET,ACCOUNTANT,Nhan vien Ke toan
+vc_act_dung,hoangdunge4d,VU THI HOANG DUNG,ACCOUNTANT,Nhan vien Ke toan
+vc_qs_nha,dacnha6df,HO DAC NHA,QS,"Nhan vien Du toan (Fit-out, FUR)"
+vc_qs_lil,tronglil0fe,PHAN TRONG LIL,QS,Nhan vien Du toan (M&E)
+vc_qs_thao,huongthaobd0,NGUYEN HUYNH HUONG THAO,QS,"Nhan vien Du toan (Fit-out, FUR)"
+vc_marketer,k0Ajbjet,NGUYEN THANH DAM,MARKETING,Nhan vien Marketing - IT
+vc_cts_tri,minhtri7d6,LE MINH TRI,CTS,Giam sat Thi cong
+vc_cts_thanh,kimthanh5be,HUYNH KIM THANH,CTS,Quan ly Du an
+vc_cts_dong,vandonge81,NGUYEN DANG DONG,CTS,Quan ly Kho
+vc_cts_khoa,dangkhoa49f,LY DANG KHOA,CTS,Giam sat Thi cong
+vc_cts_phu,vanphu333,TRAN VAN PHU,CTS,Giam sat Thi cong
+vc_cts_hoang,huyhoang657,NGUYEN HUY HOANG,CTS,Giam sat Thi cong
+vc_cts_kien,trungkien202,TRAN TRUNG KIEN,CTS,Giam sat Thi cong
+vc_cts_hoa,xuanhoa8e4,TRAN XUAN HOA,CTS,Quan ly Du an
+vc_cts_hao,duonghao6b8,NGUYEN LAM DUONG THAO,CTS,Quan ly Du an
+vc_dsi_tien,mytienefe,TRAN THI MY TIEN,DESIGN,Nhan vien Thiet ke
+vc_dsi_khoa,tienkhoac0f,TRAN TIEN KHOA,DESIGN,Nhan vien Thiet ke
+vc_dsi_thao,congthao02a,LE CONG THAO,DESIGN,Nhan vien Thiet ke
+vc_dsi_linh,tunglinhf15,NGUYEN TUNG LINH,DESIGN,Nhan vien Thiet ke
+vc_dsi_quyen,huequyen30d,NGUYEN THI HUE QUYEN,DESIGN,Nhan vien Thiet ke
+vc_dsi_tri,quoctric91,BUI QUOC TRI,DESIGN,Nhan vien Thiet ke
+vc_dsi_trong,duytrongdca,PHAN TRONG DUY,DESIGN,Nhan vien Thiet ke
+vc_dsi_tuan,anhtuanf77,NGUYEN PHUC ANH TUAN,DESIGN,Nhan vien Thiet ke
+vc_dsi_doan,khanhdoan499,NGUYEN NHAT KHANH DOAN,DESIGN,Nhan vien Thiet ke Do hoa
