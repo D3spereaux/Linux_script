@@ -1,74 +1,81 @@
 #!/bin/bash
 
-#Download speedtest script
-wget https://github.com/D3spereaux/Linux_script/blob/master/Scripting/speedtest-cli
-#Permission to execute
-chmod +x speedtest-cli
+if [ -f "speedtest-cli" ]; then
+			echo
+		else
+		#Download speedtest script
+			wget https://raw.githubusercontent.com/D3spereaux/Linux_script/master/Scripting/speedtest-cli
+		#Permission to execute
+			chmod +x speedtest-cli
+		fi
+
 #Remove old file
 rm speedtest_info.txt
 clear; echo
+date | tee -a speedtest_info.txt
 
 #Testing with list Server in Vietnam.
+echo "---------------------------------------------------------" | tee -a speedtest_info.txt
 ./speedtest-cli --server 6106  | egrep 'Hosted|Download|Upload'  | tee -a speedtest_info.txt
-echo | tee -a speedtest_info.txt
+echo "---------------------------------------------------------" | tee -a speedtest_info.txt
 ./speedtest-cli --server 26853 | egrep 'Hosted|Download|Upload'  | tee -a speedtest_info.txt
-echo | tee -a speedtest_info.txt
+echo "---------------------------------------------------------" | tee -a speedtest_info.txt
 ./speedtest-cli --server 2515  | egrep 'Hosted|Download|Upload'  | tee -a speedtest_info.txt
-echo | tee -a speedtest_info.txt
+echo "---------------------------------------------------------" | tee -a speedtest_info.txt
 ./speedtest-cli --server 18250 | egrep 'Hosted|Download|Upload'  | tee -a speedtest_info.txt
-echo | tee -a speedtest_info.txt
+echo "---------------------------------------------------------" | tee -a speedtest_info.txt
 ./speedtest-cli --server 8158  | egrep 'Hosted|Download|Upload'  | tee -a speedtest_info.txt
-echo | tee -a speedtest_info.txt
+echo "---------------------------------------------------------" | tee -a speedtest_info.txt
 ./speedtest-cli --server 3381  | egrep 'Hosted|Download|Upload'  | tee -a speedtest_info.txt
-echo | tee -a speedtest_info.txt
+echo "---------------------------------------------------------" | tee -a speedtest_info.txt
 ./speedtest-cli --server 8491  | egrep 'Hosted|Download|Upload'  | tee -a speedtest_info.txt
-echo | tee -a speedtest_info.txt
+echo "---------------------------------------------------------" | tee -a speedtest_info.txt
 ./speedtest-cli --server 9668  | egrep 'Hosted|Download|Upload'  | tee -a speedtest_info.txt
-echo | tee -a speedtest_info.txt
+echo "---------------------------------------------------------" | tee -a speedtest_info.txt
 ./speedtest-cli --server 22708 | egrep 'Hosted|Download|Upload'  | tee -a speedtest_info.txt
-echo | tee -a speedtest_info.txt
+echo "---------------------------------------------------------" | tee -a speedtest_info.txt
 ./speedtest-cli --server 16749 | egrep 'Hosted|Download|Upload'  | tee -a speedtest_info.txt
-echo | tee -a speedtest_info.txt
+echo "---------------------------------------------------------" | tee -a speedtest_info.txt
 ./speedtest-cli --server 27601 | egrep 'Hosted|Download|Upload'  | tee -a speedtest_info.txt
-echo | tee -a speedtest_info.txt
+echo "---------------------------------------------------------" | tee -a speedtest_info.txt
 ./speedtest-cli --server 13373 | egrep 'Hosted|Download|Upload'  | tee -a speedtest_info.txt
-echo | tee -a speedtest_info.txt
+echo "---------------------------------------------------------" | tee -a speedtest_info.txt
 ./speedtest-cli --server 30149 | egrep 'Hosted|Download|Upload'  | tee -a speedtest_info.txt
-echo | tee -a speedtest_info.txt
+echo "---------------------------------------------------------" | tee -a speedtest_info.txt
 ./speedtest-cli --server 6102  | egrep 'Hosted|Download|Upload'  | tee -a speedtest_info.txt
-echo | tee -a speedtest_info.txt
+echo "---------------------------------------------------------" | tee -a speedtest_info.txt
 ./speedtest-cli --server 16873 | egrep 'Hosted|Download|Upload'  | tee -a speedtest_info.txt
-echo | tee -a speedtest_info.txt
+echo "---------------------------------------------------------" | tee -a speedtest_info.txt
 ./speedtest-cli --server 10040 | egrep 'Hosted|Download|Upload'  | tee -a speedtest_info.txt
-echo | tee -a speedtest_info.txt
+echo "---------------------------------------------------------" | tee -a speedtest_info.txt
 ./speedtest-cli --server 19294 | egrep 'Hosted|Download|Upload'  | tee -a speedtest_info.txt
-echo | tee -a speedtest_info.txt
+echo "---------------------------------------------------------" | tee -a speedtest_info.txt
 ./speedtest-cli --server 19060 | egrep 'Hosted|Download|Upload'  | tee -a speedtest_info.txt
-echo | tee -a speedtest_info.txt
+echo "---------------------------------------------------------" | tee -a speedtest_info.txt
 ./speedtest-cli --server 27630 | egrep 'Hosted|Download|Upload'  | tee -a speedtest_info.txt
-echo | tee -a speedtest_info.txt
+echo "---------------------------------------------------------" | tee -a speedtest_info.txt
 ./speedtest-cli --server 6085  | egrep 'Hosted|Download|Upload'  | tee -a speedtest_info.txt
-echo | tee -a speedtest_info.txt
+echo "---------------------------------------------------------" | tee -a speedtest_info.txt
 ./speedtest-cli --server 9903  | egrep 'Hosted|Download|Upload'  | tee -a speedtest_info.txt
-echo | tee -a speedtest_info.txt
+echo "---------------------------------------------------------" | tee -a speedtest_info.txt
 ./speedtest-cli --server 2552  | egrep 'Hosted|Download|Upload'  | tee -a speedtest_info.txt
-echo | tee -a speedtest_info.txt
+echo "---------------------------------------------------------" | tee -a speedtest_info.txt
 ./speedtest-cli --server 6342  | egrep 'Hosted|Download|Upload'  | tee -a speedtest_info.txt
-echo | tee -a speedtest_info.txt
+echo "---------------------------------------------------------" | tee -a speedtest_info.txt
 ./speedtest-cli --server 9174  | egrep 'Hosted|Download|Upload'  | tee -a speedtest_info.txt
-echo | tee -a speedtest_info.txt
+echo "---------------------------------------------------------" | tee -a speedtest_info.txt
 ./speedtest-cli --server 8156  | egrep 'Hosted|Download|Upload'  | tee -a speedtest_info.txt
-echo | tee -a speedtest_info.txt
+echo "---------------------------------------------------------" | tee -a speedtest_info.txt
 ./speedtest-cli --server 5774  | egrep 'Hosted|Download|Upload'  | tee -a speedtest_info.txt
-echo | tee -a speedtest_info.txt
+echo "---------------------------------------------------------" | tee -a speedtest_info.txt
 ./speedtest-cli --server 10308 | egrep 'Hosted|Download|Upload'  | tee -a speedtest_info.txt
-echo | tee -a speedtest_info.txt
+echo "---------------------------------------------------------" | tee -a speedtest_info.txt
 ./speedtest-cli --server 16416 | egrep 'Hosted|Download|Upload'  | tee -a speedtest_info.txt
-echo | tee -a speedtest_info.txt
+echo "---------------------------------------------------------" | tee -a speedtest_info.txt
 ./speedtest-cli --server 33443 | egrep 'Hosted|Download|Upload'  | tee -a speedtest_info.txt
-echo | tee -a speedtest_info.txt
+echo "---------------------------------------------------------" | tee -a speedtest_info.txt
 ./speedtest-cli --server 34705 | egrep 'Hosted|Download|Upload'  | tee -a speedtest_info.txt
-echo | tee -a speedtest_info.txt
+echo "---------------------------------------------------------" | tee -a speedtest_info.txt
 ./speedtest-cli --server 34909 | egrep 'Hosted|Download|Upload'  | tee -a speedtest_info.txt
 
 #List Server using for Speedtest (VIETNAM)
